@@ -27,6 +27,17 @@ section {
   height: 100vh;
 }
 
+h1{
+  font-size: 120px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .img-sorteio {
   height: 520px;
 }
@@ -80,13 +91,8 @@ textarea::placeholder {
   text-align-last: center;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.btn-sorteio {
+.btn-sorteio,
+.btn-reset {
   border-radius: 10px;
   background: #aec346;
   box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
@@ -102,10 +108,21 @@ main {
   cursor: pointer; 
 }
 
-.btn-sorteio:hover{
+.btn-sorteio:hover,
+.btn-reset{
     background: #6a7729;
 }
 
-.btn-sorteio:active{
+.btn-sorteio:active,
+.btn-reset{
     background: #b4ca42;    
+}
+
+.text-vermelho {
+  color: red;
+}
+
+
+.text-preto {
+  color: black;
 }
