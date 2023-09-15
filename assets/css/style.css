@@ -91,8 +91,7 @@ textarea::placeholder {
   text-align-last: center;
 }
 
-.btn-sorteio,
-.btn-reset {
+.btn-sorteio{
   border-radius: 10px;
   background: #aec346;
   box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
@@ -108,13 +107,11 @@ textarea::placeholder {
   cursor: pointer; 
 }
 
-.btn-sorteio:hover,
-.btn-reset{
+.btn-sorteio:hover{
     background: #6a7729;
 }
 
-.btn-sorteio:active,
-.btn-reset{
+.btn-sorteio:active{
     background: #b4ca42;    
 }
 
